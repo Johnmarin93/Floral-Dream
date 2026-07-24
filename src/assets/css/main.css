@@ -1,0 +1,22 @@
+:root {
+  --primary: #d63384;
+  --secondary: #f8d7da;
+  --accent: #ffc107;
+
+  --dark: #343a40;
+  --light: #ffffff;
+
+  --gray: #6c757d;
+
+  --border-radius: 16px;
+
+  --transition: 0.3s;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: var(--dark);
+
+  background: var(--light);
+}
