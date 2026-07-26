@@ -31,8 +31,6 @@ const services = [
 <template>
   <section class="services">
     <div class="container">
-      <h2></h2>
-
       <div class="row">
         <div class="col-md-6 col-lg-3" v-for="service in services" :key="service.id">
           <ServiceCard :service="service" />
