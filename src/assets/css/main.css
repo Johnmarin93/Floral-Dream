@@ -1,22 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+/*-------Variables-------*/
+
 :root {
-  --primary: #d63384;
+  --primary: #f5bec3;
   --secondary: #f8d7da;
   --accent: #ffc107;
-
+  --title-color: #7a4e3a;
   --dark: #343a40;
   --light: #ffffff;
 
   --gray: #6c757d;
 
   --border-radius: 16px;
-
+  --section-padding: 100px;
+  --shadow-sm: 0 5px 15px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.15);
   --transition: 0.3s;
+  --font-heading-family: 'Playfair Display', serif;
+  --font-body-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading-family);
+}
+/*-------Reset-------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/*-------Estilos generales-------*/
 body {
-  font-family: Arial, Helvetica, sans-serif;
-
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body-family);
   color: var(--dark);
-
   background: var(--light);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*-------Componentes reutilizables-------*/
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.contact-item h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.contact-item p {
+  margin: 5px 0 0;
+  color: #000000b7;
+}
+
+.section {
+  padding: 100px 0;
 }

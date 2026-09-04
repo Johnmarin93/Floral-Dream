@@ -1,27 +1,35 @@
+import servicio1 from '@/assets/images/services/servicio1.webp'
+import servicio2 from '@/assets/images/services/servicio2.webp'
+import servicio3 from '@/assets/images/services/servicio3.webp'
+import servicio4 from '@/assets/images/services/servicio4.webp'
 const services = [
   {
     id: 1,
-    icon: 'bi-flower1',
-    title: 'Flores Frescas',
-    description: 'Seleccionamos flores frescas todos los días para garantizar calidad.',
+    icon: servicio1,
+    title: 'Pedidos Programados',
+    description:
+      'Agenda la entrega de tus flores para la fecha y hora que prefieras. Nunca olvidarás una ocasión especial.',
   },
   {
     id: 2,
-    icon: 'bi-truck',
-    title: 'Entrega a Domicilio',
-    description: 'Llevamos tus arreglos florales donde los necesites.',
+    icon: servicio2,
+    title: 'Asesoría Personalizada',
+    description:
+      'Nuestro equipo te ayuda a elegir el arreglo floral ideal según la ocasión, el presupuesto y tus preferencias.',
   },
   {
     id: 3,
-    icon: 'bi-gift',
-    title: 'Diseños Personalizados',
-    description: 'Creamos arreglos únicos para cada ocasión especial.',
+    icon: servicio3,
+    title: 'Entrega a Domicilio',
+    description:
+      'Llevamos tus flores con cuidado y puntualidad para sorprender a esa persona especial.',
   },
   {
     id: 4,
-    icon: 'bi-heart-fill',
-    title: 'Hecho con Amor',
-    description: 'Cada detalle está pensado para transmitir emociones.',
+    icon: servicio4,
+    title: 'Flores Siempre Frescas',
+    description:
+      'Trabajamos con flores frescas para garantizar la mejor calidad y una mayor duración en cada arreglo.',
   },
 ]
 
