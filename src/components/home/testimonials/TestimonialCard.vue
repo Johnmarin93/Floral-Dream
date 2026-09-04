@@ -22,11 +22,9 @@ defineProps({
   color: #ffc107;
   font-size: 1.2rem;
   margin-bottom: 15px;
-}   
+}
 .testimonial-card {
   background: white;
-  
-  
 
   padding: 35px;
 

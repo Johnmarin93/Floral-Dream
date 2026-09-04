@@ -7,8 +7,8 @@ import TestimonialCard from '@/components/home/testimonials/TestimonialCard.vue'
   <section class="testimonials section bg-light">
     <div class="container">
       <h2 class="text-center mb-5">Testimonios de clientes</h2>
-      <div class="row">
-        <div class="col-md-4" v-for="testimonial in testimonials" :key="testimonial.id">
+      <div class="row g-4">
+        <div class="col-md-4 mb-2" v-for="testimonial in testimonials" :key="testimonial.id">
           <TestimonialCard :testimonial="testimonial" />
         </div>
       </div>

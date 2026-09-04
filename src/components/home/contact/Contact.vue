@@ -28,7 +28,7 @@ function enviarFormulario() {
   <section id="contact-section" class="contact">
     <div class="container">
       <h2 class="text-center mb-5">Contacto</h2>
-      <div class="row">
+      <div class="row g-4">
         <div class="col-lg-5">
           <div class="contact-info">
             <h3>Hablemos 🌸</h3>
